@@ -21,7 +21,7 @@
         <TextBlock FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 10 0">Имя:</TextBlock>
         <TextBox Name="inputName" Grid.Column="1" VerticalAlignment="Center" Margin="10 0" FontSize="16"/>
         <TextBlock Grid.Row="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 10 0">Описание:</TextBlock>
-        <TextBox Name="inputDescription" Grid.Row="1" Grid.Column="1" Margin="10" FontSize="16" AcceptsReturn="True"/>
+        <TextBox Name="inputDescription" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1" Margin="10" FontSize="16"/>
         <TextBlock Grid.Row="2" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 10 0">Год выпуска:</TextBlock>
         <TextBox Name="inputYear" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="10 0" FontSize="16"/>
         <Button Name="buttonEdit" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Padding="6" Click="buttonEdit_Click">Редактировать</Button>
